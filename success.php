@@ -1,0 +1,4 @@
+<?php $id=(int)($_GET['id']??0); ?>
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Request Submitted</title><link rel="stylesheet" href="style.css"></head>
+<body><nav class="navbar"><div class="brand">Campus<span>Equip</span></div></nav>
+<main class="container narrow"><div class="success form-card"><div class="check">✓</div><h1>Request submitted!</h1><p>Your borrowing request has been saved successfully.</p><div class="ticket">Request ID: <strong>#<?= $id ?></strong></div><a class="btn" href="my_requests.php">Track Request</a></div></main></body></html>
